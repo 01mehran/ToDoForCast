@@ -126,7 +126,7 @@ li {
 
 @media screen and (max-width: 490px) {
   .content {
-    width: auto;
+    width: 20rem;
     margin: 10px 20px;
   }
   #weather-data-Co {
