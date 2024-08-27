@@ -22,7 +22,6 @@ body {
   background-color: #18171754;
   margin: 15px 50px;
   padding: 30px;
-
 }
 
 span i {
@@ -116,14 +115,31 @@ li {
   color: #fff;
 }
 
-@media (max-width: 700px) {
-  /* .container{
-    height: 60vh;
-  } */
+@media screen and (max-width: 600px) {
   .content {
     width: 25rem;
   }
   #weather-data-Co {
     margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .content {
+    width: auto;
+    margin: 10px 20px;
+  }
+  #weather-data-Co {
+    width: auto;
+    gap: 20px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  button {
+    font-size: 0.5rem;
+  }
+  input[type="text"] {
+    font-size: 0.5rem;
   }
 }
